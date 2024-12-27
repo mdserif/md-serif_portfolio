@@ -1,38 +1,32 @@
 [
 	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
+		"name": "Maa Fabricators - Fabricate the Future",
+		"description": "We are experienced in metal fabrication.",
+		"image": "/assets/images/projects/maafab_for_portfolio.png",
+		"url": "https://maafabricators.com/"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "Quest Education - Journey Towards Excellence",
+		"description": "10 years of experience in education sector. ",
+		"image": "/assets/images/projects/questedu_for_portfolio.png",
+		"url": "https://questeducation.co.in/"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "Authentication App Using MERN Stack",
+		"description": "This is a full-fledged Auth app.",
+		"image": "/assets/images/projects/mernAuth_for_portfolio.png",
+		"url": "https://github.com/mdserif/MERN-Authentication"
 	},
 	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
+		"name": "Password Generator Using React",
+		"description": "A simple random password generator.",
+		"image": "/assets/images/projects/passgen_for_portfolio.png",
+		"url": "https://github.com/mdserif/React-Projects/tree/master/project5-password-generator"
 	},
 	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
+		"name": "Currency Converter Using React",
+		"description": "A simple multi currency converter.",
+		"image": "/assets/images/projects/currConv_for_portfolio.png",
+		"url": "https://github.com/mdserif/React-Projects/tree/master/project6-currency-converter"
 	}
 ]
