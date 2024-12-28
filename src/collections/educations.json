@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "August 2021 - July 2024",
+		"role": "Bachelor of Technology",
+		"company": "Kalyani Government Engineering College, Kalyani",
+		"description": " Specialized in Electrical Engineering. Learner about Electrical Machines, Power System, Control System, Electrical Design, Programming etc.",
+		"logo": "/assets/images/experiences/fta.ico"
+	},
+	{
+		"dates": "June 2018 - July 2021",
+		"role": "Diploma in Electrical Engineering ",
+		"company": "Birla Institute of Technology, Kolkata",
+		"description": "Specialized in Electrical Engineering. Learner about Electrical Machines, Power System, Control System, Electrical Design, Presentation etc.",
+		"logo": "/assets/images/experiences/yoho.ico"
+	},
+	{
+		"dates": "April 2016 · May 2018 ",
+		"role": "Science (Physics, Chemistry, Math, Biology)",
+		"company": "Madhyamgram Acharya Prafulla Chandra Vidyayatan",
+		"description": "Learned about the basics of science and gained some practical knowledge about basic science. Gained knowledge about collaboration and teamwork.",
+		"logo": "/assets/images/experiences/wulian.ico"
+	}
+]

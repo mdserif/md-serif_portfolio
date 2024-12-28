@@ -1,18 +1,29 @@
 ---
 import experiences from "../collections/experiences.json";
+import internships from "../collections/internships.json"
+import educations from "../collections/educations.json";
 import AboutExperience from "../components/about-experience.astro";
+import AboutInternship from "../components/about-internship.astro"
+import AboutEducation from "../components/about-education.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import Button from "../components/button.astro";
 ---
 
 <Layout title="Serif | About Me">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="About Me"
-      description="Hello 👋 I'm a software developer, reader from Kolkata, India. I'm passionate about building new products and learning and teaching new technology."
+      description="Hello 👋 I'm Mohammed Serif, a dedicated software engineer with a passion for technology, continuous learning, and teaching. I thrive on exploring innovative solutions, sharing knowledge, and staying curious about emerging trends in the tech world. Whether it’s developing new skills, collaborating with others, or teaching concepts to help others grow, I’m always excited to contribute and learn."
     />
-
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+    <Button
+      text="Let’s connect"
+      link="https://api.whatsapp.com/send/?phone=6291017422&text&type=phone_number&app_absent=0"
+    />
+    <img
+      src="/assets/images/about.jpg"
+      class="relative z-30 w-full my-10 rounded-xl"
+    />
 
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
     <p
@@ -21,7 +32,7 @@ import Layout from "../layouts/main.astro";
       Tech Enthusiast 🧑🏻‍💻, Reader 😇, Teacher 🤦🏻‍♂️.
     </p>
 
-    <h2
+    <!-- <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
       Experience
@@ -39,12 +50,62 @@ import Layout from "../layouts/main.astro";
                 logo={experience.logo}
               />
             </div>
-          )
+          );
+        })
+      }
+    </div> -->
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Internships
+    </h2>
+    <div class="px-5 py-10">
+      {
+        internships.map((internship) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutInternship
+                dates={internship.dates}
+                role={internship.role}
+                company={internship.company}
+                description={internship.description}
+                logo={internship.logo}
+              />
+            </div>
+          );
         })
       }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Education
+    </h2>
+    <div class="px-5 py-10">
+      {
+        educations.map((education) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutEducation
+                dates={education.dates}
+                role={education.role}
+                company={education.company}
+                description={education.description}
+                logo={education.logo}
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Let's Connect
+    </h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
@@ -52,8 +113,9 @@ import Layout from "../layouts/main.astro";
         href="https://www.linkedin.com/in/md-serif-0140711a5/"
         target="_blank"
         class="text-indigo-600 underline">follow me on LinkedIn</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
-        >email</a
+      >, or you can send me an <a
+        href="mailto:mdserif1998@gmail.com"
+        class="text-indigo-600 underline">email</a
       > and I'll be sure to get back to you.
     </p>
   </section>
