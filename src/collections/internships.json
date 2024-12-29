@@ -4,20 +4,20 @@
 		"role": "Member",
 		"company": "Industry Institute Partnership Cell, KGEC",
 		"description": " During this tenure, I organized many interactive sessions between students at our college and some industry experts in different domains. By doing this I have learned about collaboration, teamwork, communication skills etc. ",
-		"logo": "/assets/images/experiences/fta.ico"
+		"logo": "/assets/images/internships/about-iip cell.png"
 	},
 	{
 		"dates": "June 2023 - July 2023",
 		"role": "Summer Intern ",
 		"company": "National Thermal Power Corporation, Farakka",
         "description":"During this one-month internship, I have gained immense knowledge about the real-world application of Electrical Engineering and some engineering challenges and their solutions. I have also visited most of the power plant divisions' and gained some invaluable knowledge.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"logo": "/assets/images/internships/about-ntpc.png"
 	},
 	{
 		"dates": "2022 - 2023 ",
 		"role": "Technical Team Member (Machine Learning)",
 		"company": "Gooogle Developer Student Club, KGEC",
 		"description": "Intern, involved in the development of a chatbot. I also created videos and wrote some blogs on machine learning during this period. ",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"logo": "/assets/images/internships/about-gdsc.png"
 	}
 ]

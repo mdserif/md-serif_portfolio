@@ -6,14 +6,14 @@ dateFormatted: Dec 26th, 2024
 ---
 
 
-# Astro Explained: A Beginner's Guide to Creating Static Sites with Minimal JavaScript
+<!-- # Astro Explained: A Beginner's Guide to Creating Static Sites with Minimal JavaScript -->
 
 ## Introduction to Astro : The Modern Web Framework for Beginners
 
 
 In the ever-evolving landscape of Web development, choosing the right framework can be daunting, especially for beginners. Astro, a modern web framework, has emerges as a compelling choice for developers who value simplicity, performance and flexibility. In this blog post, we will explore Astro, understand what it offers, and guide you through the basics of getting started.
 
-## What is [Astro](https://astro.build/) ?
+## What is [Astro](https://astro.build/)?
 
 Astro is a modern and highly customizable JavaScript web framework optimized for building fast, content-driven websites. It supports multiple front-end frameworks like React, Vue, Svelte etc. Astro is best-known for pioneering a new frontend architecture named as [Islands architecture](https://docs.astro.build/en/concepts/islands/) to reduce JavaScript overhead and complexity compared to other frameworks.
 
@@ -32,11 +32,11 @@ Astro is a modern and highly customizable JavaScript web framework optimized for
 
 > Astro take advantage of server-side rendering over client-side rendering in the browser as much as possible and uses Multi-Page App (MPA) approach. These are the same approach that traditional frameworks - PHP, WordPress, Laravel, Ruby on Rails, etc. have been using for decades. But this approach stands in contrast to other modern JavaScript web framework like next.js, SvelteKit, Nuxt, Remix, and others. These frameworks were built for client-side rendering mostly and leverages the Single-Page App (SPA) approach.
 
-## Setting Up Astro :LiSettings:
+## Setting Up Astro 
 
 #### *Prerequisites* 
 
-- First ensure you have Node.js ( `v18.17.1` or `v20.3.0, v22.0.0` or higher ) installed on your system.
+- First ensure you have Node.js ( ` v18.17.1 ` or `v20.3.0, v22.0.0` or higher ) installed on your system.
 - Then you also need a Text editor, Astro recommends **VS Code** but you are free to choose any of the Text editors present in the market.
 - You can use `bash, powershell` or any other terminal of your choice.
 
@@ -126,5 +126,5 @@ Congratulations! Finally You have created your first basic Astro project. To lea
 Astro is an excellent framework for beginners seeking a balance between simplicity and performance. Its developer-friendly architecture make it a strong contender for modern web development projects.
 so, why not give Astro a try? Start experimenting and build something extraordinary!
 
-Thank You for your valuable time. Happy Learning :LiHeartHandshake:.
+Thank You for your valuable time. Happy Learning 🤗.
 
