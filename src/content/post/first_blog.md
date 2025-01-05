@@ -3,6 +3,7 @@ layout: ../../layouts/post.astro
 title: Astro Explained - A Beginner's Guide to Creating Static Sites with Minimal JavaScript
 description: Introduction to Astro - The Modern Web Framework for Beginners
 dateFormatted: Dec 26th, 2024
+tags: ["astro", "blogging", "learning in public", "successes"]
 ---
 
 
